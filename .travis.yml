@@ -6,6 +6,8 @@ before_install:
   - git clone https://github.com/billcloud-me/python-testing-sample.wiki.git wiki
   - pydoc Books.Book > wiki/Book.md
   - cd wiki
+  - git config --global user.email "bill.t.ward@billcloud.me"
+  - git config --global user.name "billcloud-me"
   - git add Book.md
   - git commit -m "Generating Pydoc"
   - git push origin master
