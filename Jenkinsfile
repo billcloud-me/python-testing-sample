@@ -4,7 +4,7 @@ node ('master'){
 
     stage 'Prepare Environment'
         deleteDir()
-        bash '''
+        sh '''
             #!/bin/bash
             virtualenv venv
             . venv/bin/activate
