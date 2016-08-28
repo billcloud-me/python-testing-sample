@@ -3,7 +3,8 @@ node ('master'){
         checkout scm
 
     stage 'Prepare Environment'
-        sh '''
+        deleteDir()
+        bash '''
             #!/bin/bash
             virtualenv venv
             source venv/bin/activate
