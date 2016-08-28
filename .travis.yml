@@ -4,6 +4,12 @@ python:
 install: "pip install -r requirements.txt"
 before_install:
   - git clone https://github.com/billcloud-me/python-testing-sample.wiki.git wiki
+  - pydoc Books.Book > wiki/Book.md
+  - cd wiki
+  - git add Book.md
+  - git commit -m "Generating Pydoc"
+  - git push origin master
+  - cd ..
 script: 
   - tox
   - behave
