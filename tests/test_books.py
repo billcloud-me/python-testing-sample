@@ -25,5 +25,5 @@ class TestBooks:
         with mock.patch('sys.stdout') as fake_stdout:
             print(book)
         fake_stdout.assert_has_calls([
-            mock.call.write('Author: test\nTitle: test\n'),
+            mock.call.write('Author: test\nTitle: test\nPages: 200\n'),
             ])
