@@ -7,3 +7,5 @@ These are things I would still like to do
 * Create pydoc during the travisci build
 * Push the pydoc to the github wiki site
 * Test coverage
+
+make it cool
