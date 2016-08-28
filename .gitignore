@@ -1,0 +1,5 @@
+*.pyc
+Books/__pycache__/
+ts/__pycache__/
+.tox/
+.cache/
