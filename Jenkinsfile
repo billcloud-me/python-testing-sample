@@ -9,6 +9,9 @@ node ('master'){
             . venv/bin/activate
             pip install -r requirements.txt
         '''
+    
+    stage 'Unit Testing'
+        sh 'tox'
 
     stage 'Clean Up'
         deleteDir()
