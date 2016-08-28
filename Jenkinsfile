@@ -11,7 +11,10 @@ node ('master'){
         '''
     
     stage 'Unit Testing'
-        sh 'tox'
+        sh '''
+            . venv/bin/activate
+            tox
+        '''
 
     stage 'Clean Up'
         deleteDir()
