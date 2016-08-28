@@ -1,0 +1,43 @@
+Help on module Books.Book in Books:
+
+NAME
+    Books.Book
+
+CLASSES
+    builtins.object
+        Book
+    
+    class Book(builtins.object)
+     |  Simple class just used to demonstrate testing
+     |  
+     |  Methods defined here:
+     |  
+     |  __init__(self, title, author)
+     |      Creates a new Book object
+     |      
+     |      :param title: Title of the book
+     |      :param author: Author of the book
+     |      :return: returns nothing
+     |  
+     |  __str__(self)
+     |      Overrided __str__ function to make printing the object prettier
+     |  
+     |  setPages(self, num)
+     |      Sets the number of pages for the book
+     |      
+     |      :param num: Number of pages
+     |      :return: returns nothing
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors defined here:
+     |  
+     |  __dict__
+     |      dictionary for instance variables (if defined)
+     |  
+     |  __weakref__
+     |      list of weak references to the object (if defined)
+
+FILE
+    /home/stackadmin/Development/python/book/source/Books/Book.py
+
+
