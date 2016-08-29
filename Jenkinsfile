@@ -1,5 +1,6 @@
 node ('master'){
     stage 'Checkout'
+        deleteDir()
         checkout scm
 
     stage 'Prepare Environment'
