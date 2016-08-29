@@ -13,7 +13,7 @@ node ('master'){
     stage 'Unit Testing'
         sh '''
             . venv/bin/activate
-            pytest
+            pytest Books
         '''
 
     stage 'Clean Up'
