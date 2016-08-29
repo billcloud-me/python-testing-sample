@@ -5,15 +5,15 @@ node ('master'){
     stage 'Prepare Environment'
         sh '''
             #!/bin/bash
-            virtualenv venv
-            . venv/bin/activate
+            virtualenv ../venv
+            . ../venv/bin/activate
             pip install -r requirements.txt
         '''
     
     stage 'Unit Testing'
         sh '''
-            . venv/bin/activate
-            pytest Books
+            . ../venv/bin/activate
+            pytest
         '''
 
     stage 'Clean Up'
