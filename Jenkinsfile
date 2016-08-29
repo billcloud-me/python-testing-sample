@@ -17,6 +17,12 @@ node ('master'){
             pytest
         '''
 
+    stage 'Behave Testing'
+        sh '''
+            . ../venv/bin/activate
+            behave
+        '''
+
     stage 'Clean Up'
         deleteDir()
 }
