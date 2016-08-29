@@ -1,7 +1,6 @@
 # Python Testing Sample
 
-Build Status:
-![](http://jenkins.billcloud.me:8080/job/python-testing-sample/badge/icon)
+![](http://jenkins.billcloud.me:8080/buildStatus/icon?job=python-testing-sample)
 
 [Build Status](http://jenkins.billcloud.me:8080/job/python-testing-sample/)
 
