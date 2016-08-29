@@ -1,9 +1,7 @@
 # Python Testing Sample
 
-![Build Status](http://jenkins.billcloud.me:8080/job/python-testing-sample/badge/icon)
-
-
-![](https://upload.wikimedia.org/wikipedia/commons/c/c4/PM5544_with_non-PAL_signals.png)
+Build Status:
+![](http://jenkins.billcloud.me:8080/job/python-testing-sample/badge/icon)
 
 [Build Status](http://jenkins.billcloud.me:8080/job/python-testing-sample/)
 
