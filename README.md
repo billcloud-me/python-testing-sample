@@ -1,6 +1,6 @@
 # Python Testing Sample
 
-[![Build Status](http://jenkins.billcloud.me:8080/buildStatus/icon?job=python-testing-sample)](http://jenkins.billcloud.me:8080/job/python-testing-sample/)
+<a href='http://jenkins.billcloud.me:8080/job/python-testing-sample'><img src='http://jenkins.billcloud.me:8080/job/python-testing-sample/badge/icon'></a>
 
 This python package is my attempt to test out python testing methods.  Currently the module has unit testing with pytest tests and BDD testing with Behave.  The package is linked to TravisCI for automatic testing when changes are pushed via git.
 
