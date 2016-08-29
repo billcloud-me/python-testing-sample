@@ -13,7 +13,7 @@ node ('master'){
     stage 'Unit Testing'
         sh '''
             . venv/bin/activate
-            tox
+            pytest
         '''
 
     stage 'Clean Up'
