@@ -6,7 +6,7 @@ node ('master'){
     stage 'Prepare Environment'
         sh '''
             #!/bin/bash
-	    source ~/.bash_profile
+	    alias python=python3
             virtualenv ../venv
             . ../venv/bin/activate
             pip install -r requirements.txt
