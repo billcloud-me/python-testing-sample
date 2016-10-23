@@ -6,6 +6,7 @@ node ('master'){
     stage 'Prepare Environment'
         sh '''
             #!/bin/bash
+	    source ~/.bash_profile
             virtualenv ../venv
             . ../venv/bin/activate
             pip install -r requirements.txt
