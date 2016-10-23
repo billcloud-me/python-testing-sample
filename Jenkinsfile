@@ -7,7 +7,7 @@ node ('master'){
         sh '''
             #!/bin/bash
 	    alias python=python3
-            virtualenv ../venv
+            virtualenv -p python3 ../venv
             . ../venv/bin/activate
             pip install -r requirements.txt
         '''
