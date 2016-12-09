@@ -1,4 +1,4 @@
-from distutils.core import setup
+distutils.core import setup
 
 setup(name='Books',
         version='1.0',

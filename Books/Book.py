@@ -2,7 +2,7 @@ class Book:
     '''
     Simple class just used to demonstrate testing
     '''
-    
+
     def __init__(self, title, author):
         '''
         Creates a new Book object
@@ -18,7 +18,7 @@ class Book:
     def setPages(self, num):
         '''
         Sets the number of pages for the book
-        
+
         :param num: Number of pages
         :return: returns nothing
         '''
